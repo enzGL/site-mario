@@ -1,66 +1,277 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
-body{
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
     background-image: url("midias/fundo.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    overflow: hidden;
 }
-.cabecalho{
-    margin-top: 10px;
-    width: 530px;
-    height: 39.15px;
-    left: 73px;
-    gap: 0px;
-    opacity: 0px;
+
+.cabecalho {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    border: 2px solid red;
+    margin-top: 20px;
+    width: auto;
+    height: 40px;
+    left: 73px;
 }
-.menu{
+
+.menu {
     align-items: center;
     justify-content: space-between;
     display: flex;
     color: white;
+}
+
+.logo-img {
+    width: 70px;
+    height: 40px;
+    margin-left: 73px;
+    margin-right: 51px;
+    margin-top: 31px;
+}
+
+.menu-links {
+    display: flex;
+    gap: 54px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.menu-item {
+    display: flex;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+    display: flex;
+    gap: 20px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    margin-top: 31px;
+}
+
+.redes-sociais {
+    display: flex; 
+    align-items: center; 
+    gap: 16px; 
+    margin-left: auto; 
+    margin-right: 87px; 
+}
+
+.icone {
+    margin-left: 16px;
+    margin-top: 28px;
+    height: 22px;
+    width: 22px;
+}
+.youtube {
+    height: 22px;
+    width: 16px;
+    margin-left: 10px ;
+    margin-top: 37px;
+}
+.esquerda{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 100px;
+    width: 550px;
+    height: 600px;
+    align-content: flex-end;
+    border: 3px solid blue;
+}
+.letreiro{
+    margin-bottom: 30px;
+    margin-left: 25px;
+    align-self: start;
+    width: 300px;
+    letter-spacing: 3px;
+    height: 270px;
+}
+.texto{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    color: white;
+    line-height: 25px;
+    font-weight: 400;
+    text-align: justify;
+}
+.botao-assistir{
+    background-color: #AB2323;
+    margin-top: 50px;
+    margin-right: 250px;
+    padding: 10px;
+    font-family: arial;
+    font-weight: bold; 
+    font-size: 16px; 
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.botao-assistir:hover{
+    background-color: #AB2323;
+    color: white;
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
+}
+.botao-comprar{
+    border: 5px solid green;
+    margin-left: 250px;
+    padding: 10px;
+    font-family: arial;
+    font-weight: bold; 
+    font-size: 16px; 
+    text-decoration: none;
+    color: white;
+    width: 192px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+ 
+.botao-comprar:hover{
+    color: white;
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
 }
