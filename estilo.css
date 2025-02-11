@@ -208,16 +208,16 @@ body {
     flex-direction: column;
     margin-left: 74px;
     width: 550px;
-    height: 600px;
+    height: 60vh;
     align-content: flex-end;
-    margin-right: 750px;
+    margin-right: 435px;
 }
 .letreiro{
     margin-bottom: 30px;
     align-self: start;
-    width: 300px;
+    width: 250px;
     letter-spacing: 3px;
-    height: 270px;
+    height: 212px;
 }
 .texto{
     font-size: 16px;
@@ -230,8 +230,8 @@ body {
 .botoes{
     display: flex; 
     justify-content: center; 
-    gap: 50px; 
-    margin-top: 50px; 
+    gap: 30px; 
+    margin-top: 30px; 
 }
 .botao-assistir{
     display: flex;
@@ -254,7 +254,7 @@ body {
     transform: scale(1.2);
 }
 .botao-comprar{
-    border: 5px solid #14531E;
+    border: 2px solid #14531E;
     padding: 10px;
     font-family: 'Poppins';
     font-weight: bold; 
@@ -262,7 +262,7 @@ body {
     text-decoration: none;
     color: white;
     width: 230px;
-    height: 40px;
+    height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -275,22 +275,24 @@ body {
     transition: transform 0.3s ease;
     transform: scale(1.2);
 }
-.linha{
-    display: flex;
-    margin-top: 200px;
-}
 .direita{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 382px;
-    height: 456px;
-    margin-top: 110px;
+    width: 382vh;
+    height: 55vh;
     margin-right: 100px;
+    margin-top: 40px;
+}
+.linha{
+    display: flex;
+    margin-top: 150px;
+    width: 170vh;
+    height: 80vh;
 }
 .foto{
-    width: 500px;
-    height: 600px;
+    width: 23.98vw;
+    height: 58.16vh;
 }
 /* PAGINA DO WALLPAPER */
 .menu-wallpaper{
