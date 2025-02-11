@@ -206,11 +206,11 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 200px;
-    margin-left: 100px;
+    margin-left: 74px;
     width: 550px;
     height: 600px;
     align-content: flex-end;
+    margin-right: 750px;
 }
 .letreiro{
     margin-bottom: 30px;
@@ -255,7 +255,6 @@ body {
 }
 .botao-comprar{
     border: 5px solid #14531E;
-    
     padding: 10px;
     font-family: 'Poppins';
     font-weight: bold; 
@@ -278,16 +277,16 @@ body {
 }
 .linha{
     display: flex;
-    max-width: 1750px;
+    margin-top: 200px;
 }
 .direita{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 500px;
-    height: 500px;
-    margin-top: 300px;
-    margin-left: 600px;
+    width: 382px;
+    height: 456px;
+    margin-top: 110px;
+    margin-right: 100px;
 }
 .foto{
     width: 500px;
